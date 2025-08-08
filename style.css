@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
     margin: 0;
     background-color: #f4f4f4;
+     display: flex; 
+     flex-direction: column;
+     
+  
 }
 
 /* Estilizando o contêiner da navbar */
@@ -23,4 +27,14 @@ body {
 .logo a {
     font-weight: bold;
     font-size: 24px;
+}
+
+/* Aqui começa o flex-box */
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+ align-items: center
+   
+
 }
